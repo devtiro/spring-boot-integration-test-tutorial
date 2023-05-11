@@ -86,14 +86,14 @@
 				</configuration>
 				<executions>
 					<execution>
-						<id>Check on Compile</id>
+						<id>check</id>
 						<goals>
 							<goal>check</goal>
 						</goals>
 						<phase>compile</phase>
 					</execution>
 					<execution>
-						<id>Apply on Compile</id>
+						<id>apply</id>
 						<goals>
 							<goal>apply</goal>
 						</goals>
@@ -149,6 +149,13 @@
 								<exclude>com/devtiro/books/domain/**</exclude>
 							</excludes>
 						</configuration>
+					</execution>
+					<execution>
+						<id>report</id>
+						<goals>
+							<goal>report</goal>
+						</goals>
+						<phase>verify</phase>
 					</execution>
 				</executions>
 			</plugin>

@@ -1,6 +1,6 @@
 [![Build](https://github.com/devtiro/spring-boot-unit-test-tutorial/actions/workflows/github-actions-build.yml/badge.svg)](https://github.com/devtiro/spring-boot-unit-test-tutorial/actions/workflows/github-actions-build.yml)
 
-# Devtiro Spring Boot Unit Test Tutorial
+# Devtiro Spring Boot Integration Test Tutorial
 
 ## YouTube Video
 
@@ -26,12 +26,9 @@ git checkout ${TAG_NAME}
 
 Here are the available tags:
 
-|  Branch name  |                  Description                   |
-|---------------|------------------------------------------------|
-| `fresh`       | A fresh download from the Spring Boot initilzr |
-| `pretests`    | A working app, but no tests. A red build.      |
-| `passthrough` | A working app, with mocked passthrough tests.  |
-| `withtests`   | A working app, with unit tests.                |
+| Branch name |               Description                |
+|-------------|------------------------------------------|
+| `pretest`   | Working project before integration tests |
 
 ## Code Coverage
 
